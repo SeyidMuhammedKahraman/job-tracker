@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8" />
+<title>Job Tracker</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<nav class="navbar navbar-dark navbar-expand-lg bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="#">JobTracker</a>
+    <ul class="navbar-nav ms-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="admin.html">Admin Panel</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<div class="container py-5">
+<h2 class="mb-4">Başvuru Takip Paneli</h2>
+
+<div class="row g-4">
+  <div class="col-md-4">
+    <form id="jobForm" class="card shadow-sm">
+      <div class="card-body">
+        <h6 class="title-card mb-3">Yeni Başvuru</h6>
+        <input id="title" class="form-control mb-2" placeholder="Pozisyon" />
+        <input id="company" class="form-control mb-2" placeholder="Şirket" />
+        <select id="status" class="form-select mb-3"></select>
+        <button class="btn btn-primary w-100">Kaydet</button>
+      </div>
+    </form>
+  </div>
+
+  <div class="col-md-8">
+    <div class="card shadow-sm">
+      <div class="card-body">
+        <div class="d-flex gap-2 mb-3">
+          <select id="filterSelect" class="form-select w-25"></select>
+          <input id="searchInput" class="form-control" placeholder="Ara..." />
+        </div>
+        <ul id="jobList" class="list-group list-group-flush"></ul>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<script src="js/app.js"></script>
+</body>
+</html>

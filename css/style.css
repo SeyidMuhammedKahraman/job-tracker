@@ -1,0 +1,169 @@
+body {
+  background-color: #1e1f23;
+  color: #e5e7eb;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* navbar*/
+.navbar {
+  background-color: #2b2d31 !important;
+}
+
+.navbar-brand,
+.nav-link {
+  color: #f3f4f6 !important;
+}
+
+.nav-link:hover {
+  color: #d1d5db !important;
+}
+
+/* kartları*/
+.card {
+  background-color: #2b2d31;
+  border: 1px solid #3a3d44;
+  border-radius: 12px;
+}
+
+.card-body {
+  color: #e5e7eb;
+}
+
+/* başlıklar*/
+.title-card {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+h2, h3, h5 {
+  color: #f9fafb;
+}
+
+/* form elemanlarıs*/
+.form-control,
+.form-select {
+  background-color: #1e1f23;
+  border: 1px solid #3a3d44;
+  color: #e5e7eb;
+}
+
+.form-control::placeholder {
+  color: #9ca3af;
+}
+
+.form-control:focus,
+.form-select:focus {
+  background-color: #1e1f23;
+  border-color: #6b7280;
+  color: #f9fafb;
+  box-shadow: none;
+}
+
+/*liste*/
+.list-group {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.list-group-item {
+  background-color: #2b2d31;
+  border-bottom: 1px solid #3a3d44;
+  color: #e5e7eb;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*butonlar*/
+.btn-primary {
+  background-color: #4b5563;
+  border-color: #4b5563;
+}
+
+.btn-primary:hover {
+  background-color: #6b7280;
+  border-color: #6b7280;
+}
+
+.btn-outline-primary {
+  color: #c7d2fe;
+  border-color: #4b5563;
+}
+
+.btn-outline-primary:hover {
+  background-color: #4b5563;
+  color: #ffffff;
+}
+
+.btn-outline-danger {
+  color: #fca5a5;
+  border-color: #7f1d1d;
+}
+
+.btn-outline-danger:hover {
+  background-color: #7f1d1d;
+  color: #ffffff;
+}
+
+.btn-outline-warning {
+  color: #fde68a;
+  border-color: #92400e;
+}
+
+.btn-outline-warning:hover {
+  background-color: #92400e;
+  color: #ffffff;
+}
+
+/*admin login*/
+#loginBox {
+  background-color: #2b2d31;
+  border: 1px solid #3a3d44;
+}
+
+/*istatistik alanı*/
+.stat-card {
+  background-color: #2b2d31;
+  border: 1px solid #3a3d44;
+  border-radius: 14px;
+  padding: 24px;
+  text-align: center;
+  transition: all 0.2s ease;
+}
+
+.stat-card:hover {
+  transform: translateY(-2px);
+  border-color: #6b7280;
+}
+
+.stat-card h6 {
+  font-size: 0.85rem;
+  color: #9ca3af;
+  margin-bottom: 10px;
+}
+
+.stat-card h3 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #f9fafb;
+}
+
+/*admin kart alanları*/
+#statusLists .card {
+  height: 100%;
+}
+
+#statusLists h5 {
+  color: #f3f4f6;
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+/*yönetim butonu*/
+#adminPanel .card-body {
+  padding: 30px;
+}
